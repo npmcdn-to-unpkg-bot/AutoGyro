@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+    head
+        include includes/meta.jade
+        title product detail
+        include includes/link.jade
+        link(rel="stylesheet",type="text/css",href="../css/swiper.min.css")
+        link(rel="styleSheet",type="text/css",href="../css/pdtdtl.css")
+        include includes/script.jade
+        script(src="../js/swiper.jquery.min.js")
+        script(src="../js/global.js")
+        include includes/fixIE.jade
+    body(style="background-image: url('../images/cavalon/bg2.png');")
+        include includes/navigation.jade
+        section.main.container
+            .row
+                .col-md-8
+                .col-md-4
+                    img.img-responsive.logo(src="../images/cavalon/logo.png")
+                    include includes/g_tool_menu.jade
+            .row
+                .col-md-8
+                    include includes/article.jade
+                .col-md-4
+                    include includes/navbar.jade
+        include includes/footer.jade
+        script.
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                slidesPerView: 'auto',
+                centeredSlides: false,
+                paginationClickable: true,
+                spaceBetween: 10,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev'
+            });
