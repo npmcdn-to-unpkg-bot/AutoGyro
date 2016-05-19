@@ -1,0 +1,161 @@
+body,
+html {
+  background-color: #fff;
+}
+.bgCarousel {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bgCarousel .item {
+  background-color: transparent;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vw;
+}
+.bgCarousel .mask-triangle {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+.bgCarousel .mask-half {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 50%;
+  z-index: 89;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+}
+.bgCarousel .carousel-inner > .item > img,
+.bgCarousel .carousel-inner > .item > a > img {
+  width: 100%;
+}
+.banner {
+  height: 30vw;
+  margin: 60px auto 0;
+  z-index: 19;
+  position: relative;
+  overflow: hidden;
+}
+.banner .container {
+  height: 100%;
+  position: relative;
+}
+.banner .container .items {
+  height: 100%;
+}
+.banner .container .items .col-lg-6.col-md6.col-sm-6.col-xs-6 {
+  height: 100%;
+}
+.banner .container .items .item {
+  line-height: 1.125;
+  width: 100%;
+  height: 100%;
+  display: none;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+.banner .container .items .item .txt {
+  overflow: hidden;
+}
+.banner .container .items .item.active {
+  display: -webkit-box;
+}
+.banner .container .items .item.item1 {
+  font-size: 2vw;
+  color: #54585a;
+  padding-left: 4vw;
+}
+.banner .container .items .item.item1 .txt h2 {
+  font-size: 5vw;
+  color: #ba0c2f;
+  margin-bottom: 2vw;
+}
+.banner .container .items .item.item1 .txt a {
+  color: #54585a;
+}
+.banner .container .items .item.item2 {
+  font-size: 4vw;
+  color: #005eb8;
+  padding-left: 4vw;
+}
+.banner .container .items .item.item3 {
+  font-size: 2vw;
+  color: #54585a;
+  padding-left: 4vw;
+}
+.banner .container .items .item.item3 .txt span {
+  font-size: 3vw;
+  color: #003087;
+}
+.banner .carousel-control.left,
+.banner .carousel-control.right {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  z-index: 99;
+  top: 50%;
+}
+.banner .carousel-control.left {
+  background-image: url("../images/banner/arrow-l.png");
+  left: -60px;
+}
+.banner .carousel-control.right {
+  background-image: url("../images/banner/arrow-r.png");
+  right: -60px;
+}
+.main {
+  padding-bottom: 20px;
+  z-index: 29;
+  position: relative;
+}
+.main .home-thumbnail {
+  background-color: #F3F3F3;
+  font-size: 17px;
+  color: #54585a;
+  padding: 10px 0;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 10px #a6a6a6;
+}
+.main .home-thumbnail .row {
+  margin: 0;
+}
+.main .home-thumbnail .home-thumbnail-photo {
+  width: 100%;
+}
+.main .home-thumbnail .view {
+  text-align: right;
+}
+.main .home-thumbnail .view a {
+  color: #005eb8;
+}
+.main .home-article {
+  position: relative;
+}
+.main .home-article h3 {
+  font-size: 18px;
+  color: #005eb8;
+  padding-bottom: 5px;
+}
+.main .home-article p {
+  font-size: 16px;
+}
+.main .home-article .date {
+  margin-top: 15px;
+}
+@media (max-width: 1300px) {
+  .banner .carousel-control.left {
+    left: 0;
+  }
+  .banner .carousel-control.right {
+    right: 0;
+  }
+}

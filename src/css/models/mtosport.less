@@ -1,0 +1,100 @@
+@import "global";
+.wbAbout {
+  font-size: 17px;
+  padding-top: 20px;
+  h3 {
+    font-size: 44px;
+    color: #005eb8;
+    padding: 18px 0;
+  }
+  p {
+    text-align: justify;
+  }
+}
+.wbSwiper {
+  margin-top: 30px;
+  .swiper-container {
+    background-color: #595858;
+    padding: 20px;
+    .swiper-slide {
+      width: 300px;
+      img {
+        border: solid 2px #fff;
+      }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      background: repeat-y 0 0;
+      top: 0;
+      bottom: 0;
+      height: auto;
+      width: 100px;
+      b {
+        background: no-repeat 50%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+      }
+    }
+    .swiper-button-prev {
+      background-image: url('../../images/mtosport/slider-mask-l.png');
+      background-position: 100% 0;
+      left: 0;
+      b {
+        background-image: url('../../images/banner/arrow-l.png');
+      }
+    }
+    .swiper-button-next {
+      background-image: url('../../images/mtosport/slider-mask-r.png');
+      background-position: 0 0;
+      right: 0;
+      b {
+        background-image: url('../../images/banner/arrow-r.png');
+      }
+    }
+  }
+}
+.wbInfo{
+  h3{
+    line-height: 2.5;
+    font-size: 30px;
+    color: #005eb8;
+  }
+  td{
+    font-size: 17px;
+    color: #565859;
+    width: 50%;
+  }
+  td.tit{
+    color: #54585a;
+  }
+}
+.wbFurInfo{
+  background-color: #6C7073;
+  color: #fff;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  h3{
+    padding: 20px 0 10px;
+  }
+  a{
+    background: transparent no-repeat 100% 50%;
+    line-height: 36px;
+    color: #fff;
+    width: 100%;
+    padding: 0 0.5em;
+    margin-bottom: 20px;
+    display: block;
+    border: solid #fff 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  a.link{
+    background-image: url("../../images/mtosport/arrow-r.png");
+  }
+  a.download{
+    background-image: url("../../images/mtosport/download.png");
+  }
+}

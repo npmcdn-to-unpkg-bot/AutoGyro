@@ -1,0 +1,26 @@
+h2.title {
+  font-size: 44px;
+  color: #005eb8;
+}
+h3.title {
+  font-size: 30px;
+  color: #005eb8;
+}
+.banner img {
+  width: 100%;
+}
+.main {
+  margin-top: 40px;
+  line-height: 1.4;
+}
+.wbForm h2 {
+  font-size: 44px;
+  color: #005eb8;
+  padding: 18px 0;
+}
+.wbForm input[type="text"] {
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  height: 50px;
+  padding: 14px 12px;
+}

@@ -1,0 +1,28 @@
+h2.title {
+  font-size: 44px;
+  color: #005eb8;
+}
+h3.title {
+  font-size: 30px;
+  color: #005eb8;
+}
+.banner img {
+  width: 100%;
+}
+.main {
+  margin-top: 40px;
+  line-height: 1.4;
+}
+.wbCtx {
+  line-height: 23px;
+  font-size: 17px;
+}
+.wbCtx p {
+  text-align: justify;
+  line-height: 23px;
+  font-size: 17px;
+  margin: 20px 0;
+}
+.wbCtx .video {
+  width: 100%;
+}

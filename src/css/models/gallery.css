@@ -1,0 +1,66 @@
+html {
+  background: transparent url('../../images/mtosport/bg.png') repeat-x 0 0;
+}
+body {
+  background: transparent no-repeat 50% 0;
+}
+.banner .logo {
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+.banner .list-group {
+  color: #54585a;
+}
+.banner .list-group .list-group-item {
+  background-color: transparent;
+  font-size: 24px;
+  padding: 21px 15px;
+  border-width: 0 0 2px 0;
+  border-color: #54585A;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.banner .list-group .list-group-item a {
+  color: #54585a;
+}
+.banner .list-group .list-group-item a:hover {
+  text-underline: none;
+}
+.banner .list-group .list-group-item .badge {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.banner .list-group .list-group-item .badge.icon1 {
+  background-image: url('../../images/mtosport/banner_icon1.png');
+}
+.banner .list-group .list-group-item .badge.icon2 {
+  background-image: url('../../images/mtosport/banner_icon2.png');
+}
+.main {
+  margin-top: 70px;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  body {
+    background-image: none;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    background-image: url('../../images/mtosport/bg2.png');
+  }
+}
+.wbGallery h2 {
+  font-size: 40px;
+  color: #005eb8;
+  margin: 35px 0;
+}
+.wbGallery img {
+  width: 100%;
+  display: block;
+}

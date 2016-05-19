@@ -1,0 +1,26 @@
+.g_article .g_article_title {
+  font-size: 40px;
+  color: #005eb8;
+}
+.g_article .g_article_context h1 {
+  font-size: 30px;
+  color: #005eb8;
+}
+.g_article .g_article_context h2 {
+  font-size: 28px;
+}
+.g_article .g_article_context h3 {
+  font-size: 26px;
+}
+.g_article .g_article_context h4 {
+  font-size: 24px;
+}
+.g_article .g_article_context h5 {
+  font-size: 22px;
+}
+.g_article .g_article_context h6 {
+  font-size: 18px;
+}
+.g_article .g_article_context p {
+  font-size: 16px;
+}
