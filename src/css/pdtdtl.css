@@ -84,10 +84,10 @@ body {
   display: inline-block;
 }
 .g-tool-menu.list-group .list-group-item .badge.icon1 {
-  background-image: url('../images/pdtdtl/banner_icon1.png');
+  background-image: url('../../images/pdtdtl/banner_icon1.png');
 }
 .g-tool-menu.list-group .list-group-item .badge.icon2 {
-  background-image: url('../images/pdtdtl/banner_icon2.png');
+  background-image: url('../../images/pdtdtl/banner_icon2.png');
 }
 .g-listbox {
   background-color: #6C7073;
@@ -113,10 +113,10 @@ body {
   box-sizing: border-box;
 }
 .g-listbox a.item.link {
-  background-image: url("../images/cavalon/arrow-r.png");
+  background-image: url("../../images/arrow-r.png");
 }
 .g-listbox a.item.download {
-  background-image: url("../images/cavalon/download.png");
+  background-image: url("../../images/download.png");
 }
 .g-listbox h3 {
   color: #fff;
