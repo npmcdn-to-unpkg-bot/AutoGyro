@@ -1,0 +1,33 @@
+.g-listbox {
+  background-color: #6C7073;
+  color: #fff;
+  padding: 0 20px 10px;
+  margin-bottom: 20px;
+}
+.g-listbox a {
+  text-decoration: underline;
+  color: #fff;
+}
+.g-listbox a.item {
+  background: transparent no-repeat 100% 50%;
+  text-decoration: none;
+  line-height: 36px;
+  width: 100%;
+  padding: 0 0.5em;
+  margin-bottom: 20px;
+  display: block;
+  border: solid #fff 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.g-listbox a.item.link {
+  background-image: url("../images/cavalon/arrow-r.png");
+}
+.g-listbox a.item.download {
+  background-image: url("../images/cavalon/download.png");
+}
+.g-listbox h3 {
+  color: #fff;
+  padding-bottom: 10px;
+}

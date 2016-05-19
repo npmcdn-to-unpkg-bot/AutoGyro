@@ -2,27 +2,22 @@ doctype html
 html(lang="en")
     head
         include includes/meta.jade
-        title gallery image
+        title gallery image 2
         include includes/link.jade
         link(rel="stylesheet",type="text/css",href="../css/magnific-popup.css")
-        link(rel="styleSheet",type="text/css",href="../css/gallery-image.css")
+        link(rel="styleSheet",type="text/css",href="../css/gallery-image2.css")
         include includes/script.jade
         script(src="../js/jquery.magnific-popup.min.js")
         script(src="../js/global.js")
         include includes/fixIE.jade
-    body(style="background-image: url('../images/cavalon/bg2.png');")
+    body
         include includes/navigation.jade
+        include includes/g_banner.jade
         section.main.container
             .row
                 .col-md-8
-                .col-md-4
-                    img.img-responsive.logo(src="../images/cavalon/logo.png")
-                    include includes/g_tool_menu.jade
-            .row
-                .col-md-8
-                    h3 MTOsport - Gallery
-                    .row
-                        include includes/gallery-image-list.jade
+                    h3 gallery
+                    include includes/gallery-image-list.jade
                 .col-md-4
                     include includes/navbar.jade
         include includes/footer.jade
