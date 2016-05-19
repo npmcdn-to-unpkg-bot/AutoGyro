@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        include includes/meta.jade
+        title search result list
+        include includes/link.jade
+        link(rel="styleSheet",type="text/css",href="../css/search-result-list.css")
+        include includes/script.jade
+        script(src="../js/global.js")
+        include includes/fixIE.jade
+    body
+        include includes/navigation.jade
+        include includes/g_banner.jade
+        section.main.container
+            .row
+                .col-md-8
+                    include includes/search-list.jade
+                .col-md-4
+                    include includes/navbar.jade
+        include includes/footer.jade
