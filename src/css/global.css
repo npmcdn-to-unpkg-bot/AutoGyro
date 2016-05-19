@@ -340,6 +340,7 @@ body {
   background-color: transparent;
   padding: 15px 15px;
   border-width: 0 0 1px 0;
+  border-radius: 0;
 }
 .ag-navbar .ag-navbar-bd .list-group-item a {
   color: #fff;
