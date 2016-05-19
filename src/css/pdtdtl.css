@@ -1,0 +1,121 @@
+body {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: contain;
+}
+.main .logo {
+  margin-top: 150px;
+}
+.main h3 {
+  font-size: 40px;
+  color: #005eb8;
+  padding: 18px 0;
+}
+.main p {
+  text-align: justify;
+}
+.banner-menu.list-group {
+  color: #54585a;
+}
+.banner-menu.list-group .list-group-item {
+  background-color: transparent;
+  font-size: 24px;
+  padding: 21px 15px;
+  border-width: 0 0 2px 0;
+  border-color: #54585A;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.banner-menu.list-group .list-group-item a {
+  color: #54585a;
+}
+.banner-menu.list-group .list-group-item a:hover {
+  text-underline: none;
+}
+.banner-menu.list-group .list-group-item .badge {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.banner-menu.list-group .list-group-item .badge.icon1 {
+  background-image: url('../images/pdtdtl/banner_icon1.png');
+}
+.banner-menu.list-group .list-group-item .badge.icon2 {
+  background-image: url('../images/pdtdtl/banner_icon2.png');
+}
+.wbSwiper.swiper-container {
+  background-color: #595858;
+  padding: 20px;
+}
+.wbSwiper.swiper-container .swiper-slide {
+  width: 300px;
+}
+.wbSwiper.swiper-container .swiper-slide img {
+  border: solid 2px #fff;
+}
+.wbSwiper.swiper-container .swiper-button-prev,
+.wbSwiper.swiper-container .swiper-button-next {
+  background: repeat-y 0 0;
+  top: 0;
+  bottom: 0;
+  height: auto;
+  width: 100px;
+}
+.wbSwiper.swiper-container .swiper-button-prev b,
+.wbSwiper.swiper-container .swiper-button-next b {
+  background: no-repeat 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+}
+.wbSwiper.swiper-container .swiper-button-prev {
+  background-image: url('../images/pdtdtl/slider-mask-l.png');
+  background-position: 100% 0;
+  left: 0;
+}
+.wbSwiper.swiper-container .swiper-button-prev b {
+  background-image: url('../images/banner/arrow-l.png');
+}
+.wbSwiper.swiper-container .swiper-button-next {
+  background-image: url('../images/pdtdtl/slider-mask-r.png');
+  background-position: 0 0;
+  right: 0;
+}
+.wbSwiper.swiper-container .swiper-button-next b {
+  background-image: url('../images/banner/arrow-r.png');
+}
+.wbFurInfo {
+  background-color: #6C7073;
+  color: #fff;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.wbFurInfo h3 {
+  color: #fff;
+  padding: 20px 0 10px;
+}
+.wbFurInfo a {
+  background: transparent no-repeat 100% 50%;
+  line-height: 36px;
+  color: #fff;
+  width: 100%;
+  padding: 0 0.5em;
+  margin-bottom: 20px;
+  display: block;
+  border: solid #fff 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wbFurInfo a.link {
+  background-image: url("../images/cavalon/arrow-r.png");
+}
+.wbFurInfo a.download {
+  background-image: url("../images/cavalon/download.png");
+}

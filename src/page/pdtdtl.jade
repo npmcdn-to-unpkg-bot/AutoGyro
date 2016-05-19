@@ -1,0 +1,77 @@
+doctype html
+html(lang="en")
+    head
+        include includes/meta.jade
+        title product detail
+        include includes/link.jade
+        link(rel="stylesheet",type="text/css",href="../css/swiper.min.css")
+        link(rel="styleSheet",type="text/css",href="../css/pdtdtl.css")
+        include includes/script.jade
+        script(src="../js/swiper.jquery.min.js")
+        script(src="../js/global.js")
+        include includes/fixIE.jade
+    body(style="background-image: url('../images/cavalon/bg2.png');")
+        include includes/navigation.jade
+        section.main.container
+            .row
+                .col-md-8
+                .col-md-4
+                    img.img-responsive.logo(src="../images/cavalon/logo.png")
+                    include includes/g_tool_menu.jade
+            .row
+                .col-md-8
+                    h3 product detail title
+                    .row
+                        .col-md-6
+                            p Cavalon - the dawn of a new era: The first side-by-side gyroplane of AutoGyro is a real masterpiece in design, technique and innovation and overcomes all restrictions and limits. Seated side by side it presents its pilot and passenger an uncomparable dimension and comfort.
+                        .col-md-6
+                            p As a side-by-side model, the Cavalon expands the product range of AutoGyro and offers a huge variety of features. Due to its big tank volume the Cavalon handles great distances easily and always offers everyone the perfect position thanks to its individually adjustable seats and pedals. From the bottom to the top every wish is fulfilled: also the interior offers much room for pilot and passengers and shows a highly structured overview with outstanding design.
+                        .col-md-12
+                            include includes/pdtdtl_swiper.jade
+                        .col-md-12
+                            p The very special, sophisticated and innovative product design of the Cavalon was now decorated with the worldwide most renowned award: the red dot award: product design. The Cavalon has stood out of 4,515 products this year and has convinced a 30-member jury. The red dot is a very special award for AutoGyro, our quality standards and our innovation, and we are very proud of holding this logo.
+                        .col-md-12
+                            h3 Technical Specifications of the Cavalon:
+                        .col-md-12
+                            table.table
+                                tbody
+                                    tr
+                                        td Length x width x height:
+                                        td 4,7 m x 1,8 m x 2,8 m
+                                    tr
+                                        td Rotor diameter:
+                                        td 8,4 m
+                                    tr
+                                        td Cruising speed:
+                                        td 145 km/h
+                                    tr
+                                        td Maximum speed:
+                                        td 160 km/h
+                                    tr
+                                        td Motor:
+                                        td Rotax 912 ULS (100 hp) or Rotax 914 UL (Turbo with 115 PS)
+                        .col-md-12
+                            .wbFurInfo
+                                h3 Further Informationen:
+                                .row
+                                    .col-md-6
+                                        a.link(href="") Grund- und Zusatzaustattungen
+                                    .col-md-6
+                                        a.link(href="") Grund- und Zusatzaustattungen
+                                    .col-md-6
+                                        a.download(href="") 3SideView_MTO.PDF [375 kb]
+                                    .col-md-6
+                                        a.download(href="") 3SideView_MTO.PDF [375 kb]
+                .col-md-4
+                    include includes/navbar.jade
+        include includes/footer.jade
+        script.
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                slidesPerView: 'auto',
+                centeredSlides: false,
+                paginationClickable: true,
+                spaceBetween: 10,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev'
+            });
