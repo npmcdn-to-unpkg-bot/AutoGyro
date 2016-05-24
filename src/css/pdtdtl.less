@@ -2,7 +2,7 @@ body {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: contain;
+  background-size: initial;
 }
 
 .main {
@@ -13,6 +13,10 @@ body {
     font-size: 40px;
     color: #005eb8;
   }
+  .pgtit,
+  .g_article_title {
+    padding-top: 25px;
+  }
   p {
     text-align: justify;
   }
@@ -21,6 +25,7 @@ body {
 .wbSwiper.swiper-container {
   background-color: #595858;
   padding: 20px;
+  margin: 15px 0;
   .swiper-slide {
     width: 300px;
     img {
@@ -62,3 +67,7 @@ body {
 
 @import "includes/g-tool-menu.less";
 @import "includes/g-listbox.less";
+.g-tool-menu {
+  margin-top: 25px;
+  margin-bottom: 90px;
+}

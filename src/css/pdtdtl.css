@@ -2,7 +2,7 @@ body {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: contain;
+  background-size: initial;
 }
 .main .logo {
   margin-top: 150px;
@@ -11,12 +11,17 @@ body {
   font-size: 40px;
   color: #005eb8;
 }
+.main .pgtit,
+.main .g_article_title {
+  padding-top: 25px;
+}
 .main p {
   text-align: justify;
 }
 .wbSwiper.swiper-container {
   background-color: #595858;
   padding: 20px;
+  margin: 15px 0;
 }
 .wbSwiper.swiper-container .swiper-slide {
   width: 300px;
@@ -61,7 +66,7 @@ body {
 }
 .g-tool-menu.list-group .list-group-item {
   background-color: transparent;
-  font-size: 24px;
+  font-size: 20px;
   padding: 21px 15px;
   border-width: 0 0 2px 0;
   border-color: #54585A;
@@ -84,10 +89,10 @@ body {
   display: inline-block;
 }
 .g-tool-menu.list-group .list-group-item .badge.icon1 {
-  background-image: url('../../images/pdtdtl/banner_icon1.png');
+  background-image: url('../images/pdtdtl/banner_icon1.png');
 }
 .g-tool-menu.list-group .list-group-item .badge.icon2 {
-  background-image: url('../../images/pdtdtl/banner_icon2.png');
+  background-image: url('../images/pdtdtl/banner_icon2.png');
 }
 .g-listbox {
   background-color: #6C7073;
@@ -113,12 +118,16 @@ body {
   box-sizing: border-box;
 }
 .g-listbox a.item.link {
-  background-image: url("../../images/arrow-r.png");
+  background-image: url("../images/arrow-r.png");
 }
 .g-listbox a.item.download {
-  background-image: url("../../images/download.png");
+  background-image: url("../images/download.png");
 }
 .g-listbox h3 {
   color: #fff;
   padding-bottom: 10px;
+}
+.g-tool-menu {
+  margin-top: 25px;
+  margin-bottom: 90px;
 }

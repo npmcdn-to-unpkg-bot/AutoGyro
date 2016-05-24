@@ -36,4 +36,5 @@ $(function () {
     $navbar.find("> ul > li.drop > a").click(function () {
         $(this).siblings("ul").toggleClass("active");
     });
+    $(".ag-navbar .ag-navbar-bd").css("min-height", $(".reference").height() - 65 + "px");
 });

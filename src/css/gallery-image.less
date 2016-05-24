@@ -1,22 +1,28 @@
-@import "includes/g-tool-menu.less";
-
 body {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: contain;
+  background-size: initial;
 }
 
 .main {
   .logo {
     margin-top: 150px;
   }
-  h3 {
+  h1.pgtit {
     font-size: 40px;
     color: #005eb8;
     padding: 18px 0;
+    padding-top: 25px;
   }
   p {
     text-align: justify;
   }
+}
+
+@import "includes/g-tool-menu.less";
+
+.g-tool-menu {
+  margin-top: 25px;
+  margin-bottom: 90px;
 }

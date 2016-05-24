@@ -29,15 +29,18 @@
   box-sizing: border-box;
 }
 .g-listbox a.item.link {
-  background-image: url("../../images/arrow-r.png");
+  background-image: url("../images/arrow-r.png");
 }
 .g-listbox a.item.download {
-  background-image: url("../../images/download.png");
+  background-image: url("../images/download.png");
 }
 .g-listbox h3 {
   color: #fff;
   padding-bottom: 10px;
 }
 .main {
+  padding-top: 40px;
+}
+.main .g_article_title {
   padding-top: 20px;
 }
