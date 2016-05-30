@@ -58,7 +58,7 @@ html {
   width: 100%;
   height: 100%;
   display: none;
-  -webkit-box-pack: center;
+  -webkit-box-pack: start;
   -webkit-box-align: center;
 }
 .banner .container .items .item .txt {
@@ -136,6 +136,9 @@ html {
 }
 .main .home-thumbnail .view a {
   color: #005eb8;
+}
+.main .home-thumbnail:first-child {
+  margin-top: 46px;
 }
 .main .home-article {
   position: relative;

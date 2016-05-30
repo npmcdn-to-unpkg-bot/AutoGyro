@@ -13,7 +13,7 @@ body {
 }
 .main .pgtit,
 .main .g_article_title {
-  padding-top: 25px;
+  padding-top: 18px;
 }
 .main p {
   text-align: justify;
@@ -84,8 +84,9 @@ body {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 50%;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
+  margin-top: -8px;
   display: inline-block;
 }
 .g-tool-menu.list-group .list-group-item .badge.icon1 {
@@ -98,7 +99,6 @@ body {
   background-color: #6C7073;
   color: #fff;
   padding: 0 20px 10px;
-  margin-bottom: 20px;
 }
 .g-listbox a {
   text-decoration: underline;

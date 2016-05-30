@@ -21,8 +21,9 @@
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 50%;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
+  margin-top: -8px;
   display: inline-block;
 }
 .g-tool-menu.list-group .list-group-item .badge.icon1 {

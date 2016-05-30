@@ -162,6 +162,9 @@ body {
   line-height: 40px;
   display: block;
 }
+.ag-nav .container .nav-bar > ul > li > a img {
+  margin: 20px 0;
+}
 .ag-nav .container .nav-bar > ul > li > a.icon1 {
   background-image: url("../images/navbar/icon1.png");
 }
@@ -417,6 +420,7 @@ body {
 }
 .footer {
   color: #54585a;
+  margin-top: 20px;
 }
 .footer .icon {
   background: no-repeat 0 0;
@@ -448,6 +452,9 @@ body {
   }
   .ag-nav .navbar-nav > li > .dropdown-menu {
     background-image: none;
+  }
+  .footer {
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
