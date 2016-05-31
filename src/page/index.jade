@@ -32,9 +32,7 @@ html(lang="en")
             var $carousel1 = $("#myCarousel"),
                     $carousel_items = $(".banner .item");
             $(document).ready(function () {
-                $carousel1.carousel({
-                    interval: false
-                });
+                $carousel1.carousel({});
                 $carousel1.on("slid.bs.carousel", function () {
                     $carousel_items.removeClass("active");
                     $($carousel_items[$carousel1.find(".active").index()]).addClass("active");
