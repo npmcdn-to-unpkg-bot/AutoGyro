@@ -1,7 +1,13 @@
 .banner {
-  text-align: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 420px;
 }
-.banner img {
-  margin: 0 auto;
-  display: block;
+@media (max-width: 768px) {
+  .banner {
+    height: 280px;
+  }
 }
