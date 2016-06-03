@@ -33,3 +33,8 @@ h3 {
 .wbNewsDetail p {
   text-align: justify;
 }
+@media (max-width: 768px) {
+  .wbNewsDetail .hd {
+    padding-top: 0;
+  }
+}

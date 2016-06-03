@@ -1,3 +1,4 @@
-.g-videobox embed {
+.g-videobox embed,
+.g-videobox iframe {
   width: 100%;
 }

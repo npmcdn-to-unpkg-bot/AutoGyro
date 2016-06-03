@@ -16,6 +16,9 @@ body {
 .main p {
   text-align: justify;
 }
+.main .wbGallery img {
+  width: 100%;
+}
 .g-tool-menu.list-group {
   color: #54585a;
 }
@@ -53,4 +56,20 @@ body {
 .g-tool-menu {
   margin-top: 25px;
   margin-bottom: 90px;
+}
+@media (max-width: 768px) {
+  body {
+    background-position: 0 0;
+    background-size: auto 330px;
+  }
+  .main .logo {
+    margin-top: 230px;
+  }
+  .main .pgtit {
+    padding-top: 0;
+  }
+  .main .g-tool-menu {
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
 }

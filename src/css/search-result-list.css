@@ -40,3 +40,11 @@ h1 {
   color: #005eb8;
   border: none;
 }
+@media (max-width: 768px) {
+  .main {
+    padding-top: 0;
+  }
+  .main .thumbnail {
+    margin-bottom: 0;
+  }
+}

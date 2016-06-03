@@ -1,4 +1,5 @@
-.g-videobox embed {
+.g-videobox embed,
+.g-videobox iframe {
   width: 100%;
 }
 body {
@@ -31,5 +32,10 @@ body {
 @media (max-width: 768px) {
   .banner {
     height: 280px;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    padding-top: 0;
   }
 }

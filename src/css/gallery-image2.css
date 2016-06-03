@@ -32,3 +32,14 @@ body {
 .main p {
   text-align: justify;
 }
+@media (max-width: 768px) {
+  .main {
+    padding-top: 0;
+  }
+  .main h3.pgtit {
+    padding-top: 0;
+  }
+  .main .wbGallery img {
+    width: 100%;
+  }
+}

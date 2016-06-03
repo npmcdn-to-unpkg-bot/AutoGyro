@@ -9,7 +9,7 @@ body {
 
 .main {
   padding-top: 40px;
-  h1{
+  h1 {
     font-size: 40px;
     color: #005eb8;
     &.pgtit {
@@ -22,3 +22,9 @@ body {
 }
 
 @import "includes/g-banner.less";
+
+@media (max-width: 768px) {
+  .main {
+    padding-top: 0;
+  }
+}

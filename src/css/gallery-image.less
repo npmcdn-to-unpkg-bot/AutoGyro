@@ -18,6 +18,11 @@ body {
   p {
     text-align: justify;
   }
+  .wbGallery {
+    img {
+      width: 100%;
+    }
+  }
 }
 
 @import "includes/g-tool-menu.less";
@@ -25,4 +30,25 @@ body {
 .g-tool-menu {
   margin-top: 25px;
   margin-bottom: 90px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    background-position: 0 0;
+    background-size: auto 330px;
+  }
+
+  .main {
+    .logo {
+      margin-top: 230px;
+    }
+    .pgtit {
+      padding-top: 0;
+    }
+    .g-tool-menu {
+      margin-top: 25px;
+      margin-bottom: 0;
+    }
+  }
 }
