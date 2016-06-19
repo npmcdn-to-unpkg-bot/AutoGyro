@@ -2,9 +2,9 @@ doctype html
 html(lang="en")
     head
         include includes/meta.jade
-        title inquiries
+        title press
         include includes/link.jade
-        link(rel="styleSheet",type="text/css",href="../css/inquiries.css")
+        link(rel="styleSheet",type="text/css",href="../css/press.css")
         include includes/script.jade
         script(src="../js/global.js")
         include includes/fixIE.jade
@@ -14,9 +14,9 @@ html(lang="en")
         section.main.container
             .row
                 .col-md-8.reference
-                    h1.pgtit Inquiries
-                    form
-                        include includes/inquiries-form.jade
+                    h1.pgtit Press
+                    include includes/press-thumbnail.jade
+                    include includes/press-thumbnail.jade
                 .col-md-4
                     include includes/navbar.jade
         include includes/footer.jade
