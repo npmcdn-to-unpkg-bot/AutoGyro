@@ -23,10 +23,6 @@
 }
 .main h3 {
   color: #005eb8;
-  margin-top: 30px;
-}
-.main h4 {
-  margin-top: 30px;
 }
 @media (max-width: 768px) {
   .main {

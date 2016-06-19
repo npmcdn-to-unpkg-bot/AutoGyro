@@ -1,0 +1,28 @@
+form
+    h3 Step 1: Fill in basic information
+    h4 Company or Individual?
+    .form-group
+        select.form-control
+            option Company
+    h4 Company Information
+    .form-group
+        input.form-control(type="text",placeholder="Company Name")
+    .row
+        .col-md-6
+            .form-group
+                select.form-control
+                    option Province
+        .col-md-6
+            .form-group
+                select.form-control
+                    option City
+        .col-md-6
+            .form-group
+                select.form-control
+                    option District
+        .col-md-6
+            .form-group
+                input.form-control(type="text",placeholder="Detailed Address")
+    .form-group
+        input.form-control(type="text",placeholder="Customer E-Mail")
+    input.btn.btn-default.pull-right(type="submit",value="NEXT STEP")
