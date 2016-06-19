@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        title all page
+        style.
+            label{
+                color: #888;
+                padding-left: 1em;
+            }
+    body
+        -
+            var items=[
+            {
+            title:'index',
+            links:'index.html'
+            },{
+            title:'single page',
+            links:'single-page.html'
+            },{
+            title:'pdtdtl',
+            links:'pdtdtl.html'
+            },{
+            title:'pdtdtl2',
+            links:'pdtdtl2.html'
+            },{
+            title:'search result list',
+            links:'search-result-list.html'
+            },{
+            title:'news detail',
+            links:'news-detail.html'
+            },{
+            title:'gallery image',
+            links:'gallery-image.html'
+            },{
+            title:'gallery image2',
+            links:'gallery-image2.html'
+            },{
+            title:'gallery video',
+            links:'gallery-video.html'
+            },{
+            title:'register',
+            links:'register.html'
+            },{
+            title:'login',
+            links:'login.html'
+            },{
+            title:'inquiries',
+            links:'inquiries.html'
+            }
+            ]
+        dl
+            dt module
+            - for(var i=0;i<items.length;i++)
+                dd
+                    a(target='_blank',href=items[i].links)=items[i].title
