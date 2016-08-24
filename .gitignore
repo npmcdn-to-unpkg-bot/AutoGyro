@@ -3,4 +3,5 @@ node_modules
 
 .idea
 
-.idea/watcherTasks.xml
+
+bower_components
