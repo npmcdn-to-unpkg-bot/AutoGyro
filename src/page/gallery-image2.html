@@ -12,14 +12,16 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery.magnific-popup.min.js"></script>
-    <script src="../js/global.js"></script><!--[if lt IE 9]>
-<script src="../js/respond.min.js"></script>
-<script src="../js/html5shiv.js"></script>
-<![endif]-->
+    <script src="../js/masonry.pkgd.min.js"></script>
+    <script src="../js/global.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../js/respond.min.js"></script>
+    <script src="../js/html5shiv.js"></script>
+    <![endif]-->
   </head>
   <body>
     <div class="ag-nav">
-      <div class="container"><a class="logo pull-left" href=""><img height="40" src="../images/nav/logo.png" alt=""></a>
+      <div class="container"><a href="" class="logo pull-left"><img height="40" src="../images/nav/logo.png" alt=""></a>
         <ul class="hidden-xs pull-right clearfix">
           <li><a href="#">About us</a>
             <ul>
@@ -48,12 +50,12 @@
           <li><a href="#"><img height="10" src="../images/nav/2.png"></a></li>
           <li><a href="#"><img height="10" src="../images/nav/3.png"></a></li>
         </ul>
-        <div class="icon-item pull-right hidden-md hidden-lg hidden-sm"><a class="icon lock-sg pull-left" href="javascript:;"></a><a class="icon search-sg pull-left" href="javascript:;"></a><a class="icon menu-sg pull-left" href="javascript:;"></a></div>
+        <div class="icon-item pull-right hidden-md hidden-lg hidden-sm"><a href="javascript:;" class="icon lock-sg pull-left"></a><a href="javascript:;" class="icon search-sg pull-left"></a><a href="javascript:;" class="icon menu-sg pull-left"></a></div>
         <div class="nav-bar hidden-md hidden-lg hidden-sm">
           <ul class="m-s">
             <li>
               <div class="form-group ag-navbar-searchbox">
-                <input class="form-control txt txt-search" type="text" placeholder="Search">
+                <input type="text" placeholder="Search" class="form-control txt txt-search">
                 <input type="submit" value="">
               </div>
             </li>
@@ -73,44 +75,46 @@
             <li><a href="">Locations & Partners</a></li>
           </ul>
           <ul class="m-m">
-            <li><a class="icon1" href="">Partner Login</a></li>
-            <li><a class="icon2" href="">Customer Login</a></li>
-            <li><a class="icon3" href="">Service &amp; Maintenance</a></li>
-            <li><a class="icon4" href="">Events</a></li>
-            <li><a class="icon5" href="">Downloads</a></li>
-            <li><a class="icon6" href="">Press</a></li>
-            <li><a class="icon7" href="">Partner Links</a></li>
-            <li><a class="icon8" href="">Inquiries</a></li>
-            <li><a class="icon9" href="">Contact</a></li>
+            <li><a href="" class="icon1">Partner Login</a></li>
+            <li><a href="" class="icon2">Customer Login</a></li>
+            <li><a href="" class="icon3">Service &amp; Maintenance</a></li>
+            <li><a href="" class="icon4">Events</a></li>
+            <li><a href="" class="icon5">Downloads</a></li>
+            <li><a href="" class="icon6">Press</a></li>
+            <li><a href="" class="icon7">Partner Links</a></li>
+            <li><a href="" class="icon8">Inquiries</a></li>
+            <li><a href="" class="icon9">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <section class="banner" style="background-image:url(../uploads/bg3.png)"></section>
+    <section style="background-image:url(../uploads/bg3.png);" class="banner"></section>
     <section class="main container">
       <div class="row">
         <div class="col-md-8 reference">
           <h3 class="pgtit">gallery</h3>
-          <div class="wbGallery">
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img src="../uploads/250x250.jpg" alt=""></a></div>
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img src="../uploads/250x250.jpg" alt=""></a></div>
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img src="../uploads/250x250.jpg" alt=""></a></div>
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img src="../uploads/250x250.jpg" alt=""></a></div>
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img src="../uploads/250x250.jpg" alt=""></a></div>
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img class="img-responsive" src="../uploads/250x250.jpg" alt=""></a></div>
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img src="../uploads/250x250.jpg" alt=""></a></div>
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img src="../uploads/250x250.jpg" alt=""></a></div>
-            <div class="col-sm-4 col-md-4"><a class="thumbnail" href="../uploads/250x250.jpg" title="text for image title"><img src="../uploads/250x250.jpg" alt=""></a></div>
+          <div class="row">
+            <div class="wbGallery grid">
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt=""></a></div>
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt=""></a></div>
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt=""></a></div>
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt=""></a></div>
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt=""></a></div>
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt="" class="img-responsive"></a></div>
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt=""></a></div>
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt=""></a></div>
+              <div class="col-sm-4 col-md-4 grid-item"><a href="../uploads/250x250.jpg" title="text for image title" class="thumbnail"><img src="../uploads/250x250.jpg" alt=""></a></div>
+            </div>
           </div>
         </div>
         <div class="col-md-4">
           <section class="ag-navbar clearfix hidden-xs">
             <div class="ag-navbar-top">
-              <div class="layout clearfix"><a class="icon UK" href=""></a><a class="icon CN" href=""></a></div>
+              <div class="layout clearfix"><a href="" class="icon UK"></a><a href="" class="icon CN"></a></div>
             </div>
             <div class="ag-navbar-bd">
               <div class="form-group ag-navbar-searchbox">
-                <input class="form-control txt txt-search" type="text" placeholder="Search">
+                <input type="text" placeholder="Search" class="form-control txt txt-search">
                 <input type="submit" value="">
               </div>
               <ul class="list-group">
@@ -134,23 +138,28 @@
                 <li class="list-group-item"><a href="">Contact</a><span class="badge icon9"></span></li>
               </ul>
               <div class="form-group">
-                <input class="form-control txt txt-user" type="text" placeholder="Username">
+                <input type="text" placeholder="Username" class="form-control txt txt-user">
               </div>
               <div class="form-group">
-                <input class="form-control txt txt-password" type="text" placeholder="Password">
+                <input type="text" placeholder="Password" class="form-control txt txt-password">
               </div>
-              <div class="form-group"><a class="btn-login" href=""><b></b>Partner Login</a></div>
+              <div class="form-group"><a href="" class="btn-login"><b></b>Partner Login</a></div>
             </div>
           </section>
         </div>
       </div>
     </section>
     <footer class="footer container">
-      <p class="hidden-md hidden-lg hidden-sm"><a class="icon UK" href=""></a><a class="icon CN" href=""></a></p>
+      <p class="hidden-md hidden-lg hidden-sm"><a href="" class="icon UK"></a><a href="" class="icon CN"></a></p>
       <p><a>Imprint</a>&nbsp;|&nbsp;<a>Privacy</a>&nbsp;|&nbsp;<a>Terms & Conditions</a></p>
     </footer>
     <script>
       $(document).ready(function () {
+          $('.grid').masonry({
+              // options...
+              itemSelector: '.grid-item',
+              columnWidth: 0
+          });
           $('.wbGallery').magnificPopup({
               delegate: 'a',
               type: 'image',

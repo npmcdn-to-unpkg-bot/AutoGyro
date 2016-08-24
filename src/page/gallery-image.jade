@@ -8,6 +8,7 @@ html(lang="en")
         link(rel="styleSheet",type="text/css",href="../css/gallery-image.css")
         include includes/script.jade
         script(src="../js/jquery.magnific-popup.min.js")
+        script(src="../js/masonry.pkgd.min.js")
         script(src="../js/global.js")
         include includes/fixIE.jade
     body(style="background-image: url('../uploads/bg2.png');")
@@ -28,6 +29,11 @@ html(lang="en")
         include includes/footer.jade
         script.
             $(document).ready(function () {
+                $('.grid').masonry({
+                    // options...
+                    itemSelector: '.grid-item',
+                    columnWidth: 0
+                });
                 $('.wbGallery').magnificPopup({
                     delegate: 'a',
                     type: 'image',
