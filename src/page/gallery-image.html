@@ -164,9 +164,8 @@
     </footer>
     <script>
       $(document).ready(function () {
-          var $grid = $(".grid");
-          $grid.imagesLoaded(function () {
-              $grid.masonry({
+          $(".grid").imagesLoaded(function () {
+              $(".grid").masonry({
                   itemSelector: '.grid-item',
                   columnWidth: 0
               });
