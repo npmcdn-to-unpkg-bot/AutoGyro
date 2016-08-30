@@ -79,8 +79,10 @@ body, html {
           }
         }
         &.item2 {
-          font-size: 4vw;
-          color: #005eb8;
+          font-size: 4.3vw;
+          font-weight: 600;
+          line-height: 4.4vw;
+          color: #0070C0;
           padding-left: 4vw;
         }
         &.item3 {
@@ -166,6 +168,21 @@ body, html {
 
 @media (min-width: 992px) {
 
+}
+
+@media (max-width: 640px) {
+  .banner {
+    .container {
+      .item.item2,
+      .item.item3,
+      .item.item4 {
+        * {
+          font-size: 24px !important;
+          line-height: 24px !important;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 1300px) {

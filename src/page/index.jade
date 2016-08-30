@@ -35,7 +35,8 @@ html(lang="en")
                 $carousel1.carousel({});
                 $carousel1.on("slid.bs.carousel", function () {
                     $carousel_items.removeClass("active");
-                    $($carousel_items[$carousel1.find(".active").index()]).addClass("active");
+                    //$($carousel_items[$carousel1.find(".active").index()]).addClass("active");
+                    $($carousel_items[2]).addClass("active");
                 });
                 $carousel1.carousel(0);
                 $('.popup-video').magnificPopup({

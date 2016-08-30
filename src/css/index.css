@@ -81,8 +81,10 @@ html {
   color: #54585a;
 }
 .banner .container .items .item.item2 {
-  font-size: 4vw;
-  color: #005eb8;
+  font-size: 4.3vw;
+  font-weight: 600;
+  line-height: 4.4vw;
+  color: #0070C0;
   padding-left: 4vw;
 }
 .banner .container .items .item.item3 {
@@ -153,6 +155,14 @@ html {
 }
 .main .home-article .date {
   margin-top: 15px;
+}
+@media (max-width: 640px) {
+  .banner .container .item.item2 *,
+  .banner .container .item.item3 *,
+  .banner .container .item.item4 * {
+    font-size: 24px !important;
+    line-height: 24px !important;
+  }
 }
 @media (max-width: 1300px) {
   .banner .carousel-control.left {
